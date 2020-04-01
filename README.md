@@ -1,5 +1,13 @@
 # mysite
 django mysite tutorials
 
-#python 설치
-#VIRTUAL ENV 설치
+# Python 설치
+
+# 가상 환경 생성
+```bash
+python -m venv <path>
+```
+> example
+>> ```bash
+>> python -m venv .venv
+>> ```
