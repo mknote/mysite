@@ -1,11 +1,11 @@
 # Django Tutorial Application
 mysite
 
-## 1. 환경 설정 Set Up
+## 1. 환경 설정
 
-### 1.1. Python 설치 Install Python
+### 1.1. Python 설치
 
-### 1.2. 가상환경 생성 Create Virtual Env.
+### 1.2. 가상환경 생성
 ```bash
 python -m venv <path>
 ```
@@ -14,7 +14,7 @@ Example
 python -m venv .venv
 ```
 
-### 1.3. 가상환경 활성화 Activate Virtual Env.
+### 1.3. 가상환경 활성화
 ```powershell
 .\.venv\Scripts\activate
 ```
@@ -23,12 +23,12 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 
-### 1.4. pip 업그레이드 Upgrade pip
+### 1.4. pip 업그레이드
 ```bash
 python -m pip install --upgrade pip
 ```
 
-### 1.5. Django 설치 Install Django
+### 1.5. Django 설치
 ```bash
 python -m pip install Django
 ```
@@ -38,24 +38,24 @@ django version
 python -m django --version
 ```
 
-## 2. 프로젝트 시작 Start Project
+## 2. 프로젝트 시작
 
-### 2.1. 프로젝트 생성 Create Project
+### 2.1. 프로젝트 생성
 ```bash
 django-admin startproject mysite
 ```
 
-### 2.2. 프로젝트 실행 Run Project 
+### 2.2. 프로젝트 실행 
 ```bash
 python manage.py runserver
 ```
 
-### 2.3. 앱 생성 Create App.
+### 2.3. 앱 생성
 ```bash
 python manage.py startapp <app>
 ```
 
-### 2.4. 앱 실행에 필요한 데이터베이스 테이블 생성 Create Required Database Tables
+### 2.4. 앱 실행에 필요한 데이터베이스 테이블 생성
 ```bash
 python manage.py migrate
 ```
